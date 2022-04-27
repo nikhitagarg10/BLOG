@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}UPDATE POST{% endblock %}
+
+{% block content %}
+<br>
+<h1 align="center">UPDATE POST</h1>
+<form method="POST">
+    <textarea name="text" id="text" class="form-control">{{post.text}}</textarea>
+    <br>
+
+    <div align="center">
+        <button type="submit" class="btn btn-lg btn-primary">UPDATE</button>
+    </div>
+</form>
+
+<br>
+<div align="center">
+    <a href="/home"><button type="button" class="btn btn-lg btn-secondary">Back</button></a>
+</div>
+{% endblock %}
