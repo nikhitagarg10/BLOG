@@ -6,3 +6,8 @@
 #### => like and dislike and comment on posts
 #### => you can delete your comments too
 #### => you have your own profile wherein you can view your activity
+
+
+### technilogies used in this project are 
+#### => Flask [backend]
+#### => HTML, CSS, Bootstrap [frontend]
